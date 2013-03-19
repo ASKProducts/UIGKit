@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:UIGImage.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGImage.m">
+   </FileRef>
+   <FileRef
+      location = "group:UIGKit.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGObject.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGObject.m">
+   </FileRef>
+   <FileRef
+      location = "group:UIGSprite.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGSprite.m">
+   </FileRef>
+   <FileRef
+      location = "group:UIGView.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGView.m">
+   </FileRef>
+   <FileRef
+      location = "group:UIGViewController.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGViewController.m">
+   </FileRef>
+   <FileRef
+      location = "group:UIGText.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGText.m">
+   </FileRef>
+   <FileRef
+      location = "group:UIGPixelBoard.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGPixelBoard.m">
+   </FileRef>
+   <FileRef
+      location = "group:UIGPixel.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGPixel.m">
+   </FileRef>
+   <FileRef
+      location = "group:UIGButton.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGButton.m">
+   </FileRef>
+   <FileRef
+      location = "group:UIGButtonReciever.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGTouchableSprite.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGTouchableSprite.m">
+   </FileRef>
+   <FileRef
+      location = "group:UIGTouchReciever.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGJoyStick.h">
+   </FileRef>
+   <FileRef
+      location = "group:UIGJoyStick.m">
+   </FileRef>
+   <FileRef
+      location = "group:UIGJoyStickReciever.h">
+   </FileRef>
+</Workspace>
