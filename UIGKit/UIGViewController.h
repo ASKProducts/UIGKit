@@ -13,7 +13,13 @@
 @class UIGView;
 @class UIGObject;
 
-
+CGSize resizeBasedOnScale(CGSize size,CGSize prevScreenSize,CGSize currentScreenSize);
+CGSize resizeAndKeepAspectRatio(CGSize size,float prevScreenSize,float currentScreenSize);
+CGPoint resizePointBasedOnScale(CGPoint point,CGSize prevScreenSize,CGSize currentScreenSize);
+CGPoint resizePointAndKeepAspectRatio(CGPoint point,float prevScreenSize,float currentScreenSize);
+CGFloat resizeNumberBasedOnScale(CGFloat num,CGFloat prev,CGFloat current);
+#define IPHONE_PORTRAIT_SIZE CGSizeMake(320,460)
+#define IPHONE_PORTRAIT_SIZE_NO_STATUS CGSizeMake(320,480)
 
 @interface UIGViewController : UIViewController
 @property(nonatomic,retain)UIGView *graphicsView;
