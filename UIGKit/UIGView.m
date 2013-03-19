@@ -58,7 +58,7 @@
 
 -(NSArray*)checkForCollisionsWithOffset:(CGPoint)offset{
     NSMutableArray *collidingObjects = [[NSMutableArray alloc] init];
-    for (UIView *spr1 in [self subviews]) {
+    for (UIGSprite *spr1 in [self subviews]) {
         if(![spr1 isKindOfClass:[UIGSprite class]])continue;
         [spr1 setColliders:[[NSMutableArray alloc] init]];
         for (UIGSprite *spr2 in [self subviews]) {
